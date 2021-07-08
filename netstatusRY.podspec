@@ -13,4 +13,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/ryadav/netstatusRY.git", :tag => "#{spec.version}" }
   spec.source_files = "netstatusRY/Source/*.{swift}"
   spec.swift_version = "5.0"
+  git tag 1.0.0
+  git push origin --tags
 end
